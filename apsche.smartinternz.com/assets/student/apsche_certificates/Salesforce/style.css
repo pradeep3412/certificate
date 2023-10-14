@@ -1,0 +1,150 @@
+body {
+    margin: 0 auto;
+    font-family: 'roboto';
+    background-color: rgba(121, 120, 120, 0);
+}
+
+/* main body */
+
+.main {
+    width: 866px;
+    height: 602px;
+    margin: auto;
+    /* margin-top: 20px; */
+    padding: 20px;
+    box-shadow: 0px 0px 1px #000;
+    background-image: url(assets/Google-certificate-bgSF.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Logos */
+
+.logos {
+    display: flex;
+    margin-top: 37px;
+    margin-left: 110px;
+}
+
+.logo-text {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+
+.aicte,
+.smart,
+.nm,
+.tndge {
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.smart {
+    margin-left: 34%;
+}
+
+.gd {
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.g-logo {
+    /* margin-top: 10px; */
+}
+
+.s-logo {
+    /* margin-top: 38px; */
+}
+
+/* Head */
+
+.head {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    color: rgb(51, 51, 51);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Certificate of Completion */
+
+.cop {
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 10px;
+}
+
+.cop-text {
+    margin: auto;
+    background-color: #304443;
+    font-weight: medium;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 25px;
+}
+
+/* Description */
+
+.des {
+    /* font-weight: 500; */
+    width: 750px;
+    margin: auto;
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+/* Issued on */
+
+.date {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Signatures */
+
+.signs {
+    display: inline-flex;
+    margin-top: 45px;
+}
+
+.si-sign-div,
+.g-sign-div,
+.cert-icon {
+    margin-right: 25px;
+}
+
+hr {
+    width: 155px;
+}
+
+.sign-text {
+    font-weight: 600;
+    ;
+}
+
+/* Certificate ID */
+
+.cred {
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
